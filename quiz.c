@@ -1,6 +1,5 @@
 #include <stdio.h>
 #include <ctype.h>
-#include <windows.h>
 
 int conferir_resposta(char correta) {
     char resposta;
@@ -16,7 +15,6 @@ int conferir_resposta(char correta) {
 }
 
 int main() {
-    SetConsoleOutputCP(CP_UTF8);
     int acertos = 0;
 
     printf("=====================================\n");
@@ -24,11 +22,11 @@ int main() {
     printf("=====================================\n\n");
 
     printf("1. Qual tag é usada para criar um link em HTML?\n");
-    printf(" a) link\n b) a\n c) href\n d) url\n");
+    printf(" a) <link>\n b) <a>\n c) <href>\n d) <url>\n");
     acertos += conferir_resposta('B');
 
     printf("2. Qual dessas tags é usada para criar um parágrafo?\n");
-    printf(" a) p\n b) div\n c) span\n d) section\n");
+    printf(" a) <p>\n b) <div>\n c) <span>\n d) <section>\n");
     acertos += conferir_resposta('A');
 
     printf("3. Qual atributo da tag <img> define o endereço da imagem?\n");
@@ -40,7 +38,7 @@ int main() {
     acertos += conferir_resposta('C');
 
     printf("5. Qual elemento HTML é usado para criar uma lista ordenada (numerada)?\n");
-    printf(" a) ul\n b) ol\n c) li\n d) list\n");
+    printf(" a) <ul>\n b) <ol>\n c) <li>\n d) <list>\n");
     acertos += conferir_resposta('B');
 
     printf("6. Qual propriedade CSS altera o fundo de um elemento?\n");
