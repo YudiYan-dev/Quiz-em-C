@@ -1,121 +1,138 @@
 <!DOCTYPE html>
 <html lang="pt-br">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Projeto Integrado</title>
-    <link rel="stylesheet" href="style.css">
-    <link rel="shortcut icon" href="favicon-32x32.png" type="image/x-icon">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Projeto Integrado - Gabarito</title>
+  <link rel="stylesheet" href="style.css">
+  <link rel="shortcut icon" href="favicon-32x32.png" type="image/x-icon">
 </head>
 <body>
-    <header>
-      <h1> Gabarito</h1>
-      <nav>
-        <a href="index.html">Página Inicial</a>
-        <a href="https://onlinegdb.com/NoESsjyNMZ" target="_blank">Jogar</a>
-        <a href="gabarito.html">Gabarito</a>
-      </nav>
-    </header>
-<main>
-  <h3> 1. Qual tag é usada para criar um link em HTML? </h3>
-  <p> A&#41; &lt;link&gt;</p>
-  <p> B&#41; &lt;a&gt;</p>
-  <p> C&#41; &lt;href&gt;</p>
-  <p> D&#41; &lt;url&gt; </p>
-<details>
-    <summary><u>Mostrar Gabarito:</u></summary>
-    <p>Resposta: B&#41; &lt;a&gt;</p>
-</details>
-  
-  <h3> 2. Qual dessas tags é usada para criar um parágrafo? </h3>
-  <p> A&#41; &lt;p&gt;</p>
-  <p> B&#41; &lt;div&gt;</p>
-  <p> C&#41; &lt;span&gt;</p>
-  <p> D&#41; &lt;section&gt; </p>
-  <details>
-    <summary><u>Mostrar Gabarito:</u></summary>
-    <p>Resposta: A&#41; &lt;p&gt;</p>
-  </details>
-  
-  <h3> 3. Qual atributo da tag "img" define o endereço da imagem? </h3>
-  <p> A&#41; href</p>
-  <p> B&#41; src</p>
-  <p> C&#41; alt</p>
-  <p> D&#41; path </p>
-  <details>
-    <summary><u>Mostrar Gabarito:</u></summary>
-    <p>Resposta: B&#41; src</p>
-  </details>
-  
-  <h3> 4. Qual propriedade CSS é usada para mudar a cor do texto? </h3>
-  <p> A&#41; text-color </p>
-  <p> B&#41; font-color</p>
-  <p> C&#41; color</p>
-  <p> D&#41; text-style </p>
-  <details>
-    <summary><u>Mostrar Gabarito:</u></summary>
-    <p>Resposta: C&#41; color</p>
-  </details>
-  
-  <h3> 5. Qual elemento HTML é usado para criar uma lista ordenada (numerada)? </h3>
-  <p> A&#41; &lt;ul&gt; </p>
-  <p> B&#41; &lt;ol&gt;</p>
-  <p> C&#41; &lt;li&gt;</p>
-  <p> D&#41; &lt;list&gt; </p>
-  <details>
-    <summary><u>Mostrar Gabarito:</u></summary>
-    <p>Resposta: B&#41; &lt;ol&gt;</p>
-  </details>
-  
-  <h3> 6. Qual propriedade CSS altera o fundo de um elemento? </h3>
-  <p> A&#41; background-color</p>
-  <p> B&#41; color</p>
-  <p> C&#41; font-color</p>
-  <p> D&#41; text-background </p>
-  <details>
-    <summary><u>Mostrar Gabarito:</u></summary>
-    <p>Resposta: A&#41; background-color</p>
-  </details>
-  
-  <h3> 7. Qual unidade em CSS representa uma porcentagem do tamanho da tela? </h3>
-  <p> A&#41; px</p>
-  <p> B&#41; em</p>
-  <p> C&#41; %</p>
-  <p> D&#41; rem </p>
-  <details>
-    <summary><u>Mostrar Gabarito:</u></summary>
-    <p>Resposta: C&#41; %</p>
-  </details>
-  
-  <h3> 8. Qual das opções é um tipo de estrutura condicional em C? </h3>
-  <p> A&#41; function</p>
-  <p> B&#41; if</p>
-  <p> C&#41; include</p>
-  <p> D&#41; printf </p>
-  <details>
-    <summary><u>Mostrar Gabarito:</u></summary>
-    <p>Resposta: B&#41; if</p>
-  </details>
-  
-  <h3> 9. Como se declara uma variável inteira em C? </h3>
-  <p> A&#41; int numero;</p>
-  <p> B&#41; integer numero;</p>
-  <p> C&#41; var numero</p>
-  <p> D&#41; number numero </p>
-  <details>
-    <summary><u>Mostrar Gabarito:</u></summary>
-    <p>Resposta: A&#41; int numero;</p>
-  </details>
-  
-  <h3> 10. Qual linguagem é usada para criar a estrutura de uma página da web? </h3>
-  <p> A&#41; Python</p>
-  <p> B&#41; C</p>
-  <p> C&#41; HTML</p>
-  <p> D&#41; Java </p>
-  <details>
-    <summary><u>Mostrar Gabarito:</u></summary>
-    <p>Resposta: C&#41; HTML</p>
-  </details>
-</main>
+  <header>
+    <h1>Gabarito</h1>
+
+    <!-- Botão hamburguer -->
+    <div class="hamburger" onclick="toggleMenu()">&#9776;</div>
+
+    <!-- Menu -->
+    <nav class="nav-links">
+      <a href="index.html">Página Inicial</a>
+      <a href="https://onlinegdb.com/NoESsjyNMZ" target="_blank">Jogar</a>
+      <a href="gabarito.html">Gabarito</a>
+    </nav>
+  </header>
+
+  <main>
+    <h3>1. Qual tag é usada para criar um link em HTML?</h3>
+    <p>A&#41; &lt;link&gt;</p>
+    <p>B&#41; &lt;a&gt;</p>
+    <p>C&#41; &lt;href&gt;</p>
+    <p>D&#41; &lt;url&gt;</p>
+    <details>
+      <summary><u>Mostrar Gabarito:</u></summary>
+      <p>Resposta: B&#41; &lt;a&gt;</p>
+    </details>
+
+    <h3>2. Qual dessas tags é usada para criar um parágrafo?</h3>
+    <p>A&#41; &lt;p&gt;</p>
+    <p>B&#41; &lt;div&gt;</p>
+    <p>C&#41; &lt;span&gt;</p>
+    <p>D&#41; &lt;section&gt;</p>
+    <details>
+      <summary><u>Mostrar Gabarito:</u></summary>
+      <p>Resposta: A&#41; &lt;p&gt;</p>
+    </details>
+
+    <h3>3. Qual atributo da tag "img" define o endereço da imagem?</h3>
+    <p>A&#41; href</p>
+    <p>B&#41; src</p>
+    <p>C&#41; alt</p>
+    <p>D&#41; path</p>
+    <details>
+      <summary><u>Mostrar Gabarito:</u></summary>
+      <p>Resposta: B&#41; src</p>
+    </details>
+
+    <h3>4. Qual propriedade CSS é usada para mudar a cor do texto?</h3>
+    <p>A&#41; text-color</p>
+    <p>B&#41; font-color</p>
+    <p>C&#41; color</p>
+    <p>D&#41; text-style</p>
+    <details>
+      <summary><u>Mostrar Gabarito:</u></summary>
+      <p>Resposta: C&#41; color</p>
+    </details>
+
+    <h3>5. Qual elemento HTML é usado para criar uma lista ordenada (numerada)?</h3>
+    <p>A&#41; &lt;ul&gt;</p>
+    <p>B&#41; &lt;ol&gt;</p>
+    <p>C&#41; &lt;li&gt;</p>
+    <p>D&#41; &lt;list&gt;</p>
+    <details>
+      <summary><u>Mostrar Gabarito:</u></summary>
+      <p>Resposta: B&#41; &lt;ol&gt;</p>
+    </details>
+
+    <h3>6. Qual propriedade CSS altera o fundo de um elemento?</h3>
+    <p>A&#41; background-color</p>
+    <p>B&#41; color</p>
+    <p>C&#41; font-color</p>
+    <p>D&#41; text-background</p>
+    <details>
+      <summary><u>Mostrar Gabarito:</u></summary>
+      <p>Resposta: A&#41; background-color</p>
+    </details>
+
+    <h3>7. Qual unidade em CSS representa uma porcentagem do tamanho da tela?</h3>
+    <p>A&#41; px</p>
+    <p>B&#41; em</p>
+    <p>C&#41; %</p>
+    <p>D&#41; rem</p>
+    <details>
+      <summary><u>Mostrar Gabarito:</u></summary>
+      <p>Resposta: C&#41; %</p>
+    </details>
+
+    <h3>8. Qual das opções é um tipo de estrutura condicional em C?</h3>
+    <p>A&#41; function</p>
+    <p>B&#41; if</p>
+    <p>C&#41; include</p>
+    <p>D&#41; printf</p>
+    <details>
+      <summary><u>Mostrar Gabarito:</u></summary>
+      <p>Resposta: B&#41; if</p>
+    </details>
+
+    <h3>9. Como se declara uma variável inteira em C?</h3>
+    <p>A&#41; int numero;</p>
+    <p>B&#41; integer numero;</p>
+    <p>C&#41; var numero</p>
+    <p>D&#41; number numero</p>
+    <details>
+      <summary><u>Mostrar Gabarito:</u></summary>
+      <p>Resposta: A&#41; int numero;</p>
+    </details>
+
+    <h3>10. Qual linguagem é usada para criar a estrutura de uma página da web?</h3>
+    <p>A&#41; Python</p>
+    <p>B&#41; C</p>
+    <p>C&#41; HTML</p>
+    <p>D&#41; Java</p>
+    <details>
+      <summary><u>Mostrar Gabarito:</u></summary>
+      <p>Resposta: C&#41; HTML</p>
+    </details>
+  </main>
+
+<script>
+  const hamburger = document.querySelector('.hamburger');
+  const nav = document.querySelector('.nav-links');
+
+  nav.classList.remove('active');
+
+  hamburger.addEventListener('click', () => {
+    nav.classList.toggle('active');
+  });
+</script>
 </body>
 </html>
